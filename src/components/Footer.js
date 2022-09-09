@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({ name }) => {
     return (
         <div className="copyright">
-            <p>Made with love by Myself</p>
+            <p>Made with love by {name}</p>
         </div>
     )
 }
